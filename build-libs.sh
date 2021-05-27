@@ -45,7 +45,7 @@ done
 # Remove '--'
 shift
 
-ndk-build $JNI_ARGS
+$ANDROID_NDK_HOME/build/ndk-build $JNI_ARGS
 
 cd ../../..
 
